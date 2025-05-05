@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    overflow-y: scroll;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+/* Intro Section */
+#intro-section {
+    background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+}
+
+/* Story Sections */
+.story-page {
+    background: #fffaf0;
+    color: #333;
+}
+
+/* Letter Section */
+#letter-section {
+    background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+}
+
+#letter-content {
+    max-width: 800px;
+    text-align: left;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    line-height: 2;
+}
+
+/* Bottle Section */
+#bottle-section {
+    background: linear-gradient(to bottom, #1e90ff, #87cefa);
+}
+
+/* Roses Section */
+#roses-section {
+    background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+}
+
+/* Goodbye Section */
+#goodbye-section {
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: white;
+}
+
+/* Buttons & Interactive Elements */
+.intro-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+#begin-btn {
+    background: #e74c3c;
+    color: white;
+}
+
+#later-btn {
+    background: transparent;
+    border: 1px solid #333;
+  }
